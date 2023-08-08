@@ -1,0 +1,43 @@
+{
+  "nexsoft_message": {
+    "header": {
+      "message_id": "7232406592",
+      "user_id": "nexchief.dev",
+      "password": "",
+      "version": "A01.57.01",
+      "principal_id": "NDI",
+      "timestamp": "2022-08-24 13:45:44",
+      "action": {
+        "class_name": "Socket",
+        "type_name": "RESP_REQ_SYSADMIN_DATA"
+      }
+    },
+    "payload": {
+      "header": {
+        "status": 200,
+        "reqStatus": "SUCCESS",
+        "message": "Sysadmin Users are Available",
+        "size": 60000,
+        "range": {
+          "from": 0,
+          "to": 60000
+        }
+      },
+      "data": {
+        "companyId": "NS6044050001548",
+        "branchId": "1522910433080",
+        "principalId": "NDI",
+        "userList": [
+          {
+            "userId": "sysadm",
+            "userFullName": "system adminstrator",
+            "userEmail": "",
+            "userAddress": "bulukumba",
+            "userLevel": "2",
+            "dataScopeUser": ""
+          }
+        ]
+      }
+    }
+  }
+}
